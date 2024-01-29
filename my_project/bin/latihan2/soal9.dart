@@ -5,7 +5,7 @@ void main() {
   do {
     print("Masukkan Tebakan 1-100 : ");
     int tebak = int.parse(stdin.readLineSync()!);
-    if (tebak > 1 || tebak < 100) {
+    if (tebak > 1 && tebak < 100) {
       if (tebak == jawaban) {
         break;
       } else {
