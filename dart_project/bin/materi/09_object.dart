@@ -1,4 +1,4 @@
 void main() {
-  Object object = "Pemrograman Mobile";
+  Object object = "Pemrograman Mobile ";
   print(object);
 }
